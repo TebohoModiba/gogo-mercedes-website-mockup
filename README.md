@@ -54,7 +54,7 @@ src/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/TebohoModiba/gogo-mercedes-website-mockup.git
+git clone https://github.com/TebohoModiba/gogo-mercedes-website-mockup
 ```
 
 2. Navigate into the project directory:
