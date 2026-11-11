@@ -1,4 +1,6 @@
+
 import React from "react";
+import ConceptNotice from "./components/ConceptNotice";
 import AntiScamBanner from "./components/AntiScamBanner";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -15,6 +17,7 @@ export default function App() {
     <div className="site-shell">
       <AntiScamBanner />
       <Navbar />
+
       <main>
         <Home />
         <About />
@@ -24,7 +27,11 @@ export default function App() {
         <Events />
         <Contact />
       </main>
+
       <Footer />
+
+      {/* Website concept disclaimer popup */}
+      <ConceptNotice />
     </div>
   );
 }
